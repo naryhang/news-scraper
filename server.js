@@ -18,7 +18,7 @@ app.use(
 app.use(express.static("public"));
 app.set('view engine', 'html');
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/newsScraper";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGODB_URI, {

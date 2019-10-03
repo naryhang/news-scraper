@@ -1,0 +1,65 @@
+nav {
+    background-color:black;
+    height: 90px;
+    margin-bottom: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+nav .brand-logo {
+    font-size: 50px;
+    margin-top: 15px;
+}
+.scrape:hover, .saved:hover, .back:hover {
+    background-color: #3500D3;
+}
+button:active {
+    background-color: #3500D3;
+}
+.btn:hover {
+    background-color: #3500D3;
+}
+
+ ul li a.btn-large {
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: #240090;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #282828;
+}
+main {
+flex: 1 0 auto;
+}
+a h2{
+    font-size: 30px;
+}
+.btn {
+    background-color: #240090;
+}
+#notesModal {
+    min-height: 400px;
+}
+#modalHeader {
+    margin: 20px 0px 30px 0px;
+}
+#closeModal {
+    margin-right: 10px;
+}
+.eachNote {
+    padding: 15px 0px;
+    border: 1px black;
+    margin: 5px auto;
+}
+.deleteNote {
+    margin-right: 10px;
+    background-color: #3500D3;
+}
+.deleteNote i {
+    margin-top: 5px;
+    color: white;
+}
+.remove {
+    margin-right: 20px;
+}
